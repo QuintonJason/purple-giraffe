@@ -1,1 +1,7 @@
 /* Place CSS styles here */
+body {
+    color: #1b1b1b;
+    background-color: #efefef;
+    font-size: 30px;
+}
+
