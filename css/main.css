@@ -1,7 +1,8 @@
 /* Place CSS styles here */
 body {
-    color: #1b1b1b;
-    background-color: #efefef;
+    color: #efefef;
+    background-color: #edd19c;
     font-size: 30px;
+    background-image: url(../img/fire-dark-1920x1200-15331.jpg);
 }
 
