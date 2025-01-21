@@ -6,3 +6,10 @@ body {
     background-image: url(../img/fire-dark-1920x1200-15331.jpg);
 }
 
+.snow-day {
+    color: purple;
+}
+
+.snow-angel {
+    border: 10px solid white;
+}
