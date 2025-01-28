@@ -3,10 +3,31 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: rgb(64, 185, 64);
+}
+
+/* this sucks. i hate websites. */
+a:focus-visible {
+    border: 3px solid fuchsia;
+}
+
 body {
     color: #1b1b1b;
     background-color: #efefef;
     font-size: 30px;
+}
+
+ul img {
+    border: 5px solid pink;
+}
+
+div img {
+    border: 15px solid brown;
 }
 
 .purple-giraffe-container {
@@ -30,8 +51,23 @@ body {
     background-image: url(../img/fire-dark-1920x1200-15331.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 400px;;
+    min-height: 400px;
 }
+
+.purple-giraffe-heading {
+    text-align: center;
+}
+
+.purple-giraffe-container .purple-giraffe-inner-heading {
+    border: 3px solid red;
+}
+
+/* ABOUT PAGE */
+
+/* CONTACT PAGE */
+
+
+/* FOOTER */
 
 footer {
     background-color: purple;
