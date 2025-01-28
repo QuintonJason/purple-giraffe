@@ -4,10 +4,14 @@ html {
 }
 
 body {
-    color: #efefef;
-    background-color: #edd19c;
+    color: #1b1b1b;
+    background-color: #efefef;
     font-size: 30px;
-    background-image: url(../img/fire-dark-1920x1200-15331.jpg);
+}
+
+.purple-giraffe-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .snow-day {
@@ -20,4 +24,18 @@ body {
 
 .thursday-image  {
     width: 300px;
+}
+
+.purple-giraffe-hero {
+    background-image: url(../img/fire-dark-1920x1200-15331.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
