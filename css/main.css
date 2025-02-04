@@ -55,6 +55,26 @@ div img {
     border: 10px solid white;
 }
 
+.tuesday-hero-container {
+    display: flex;
+}
+
+.tuesday-hero-image {
+    background-image: url(../img/fire-dark-1920x1200-15331.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.tuesday-hero-heading {
+
+}
+
+.tuesday-hero-description {
+
+}
+
 .thursday-image  {
     width: 300px;
 }
