@@ -20,6 +20,18 @@ body {
     color: #1b1b1b;
     background-color: #efefef;
     font-size: 30px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 
 ul img {
