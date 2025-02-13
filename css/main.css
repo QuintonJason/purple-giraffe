@@ -1,10 +1,15 @@
 /* Place CSS styles here */
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 a {
     color: rebeccapurple;
+
 }
 
 a:hover {
@@ -14,6 +19,52 @@ a:hover {
 /* this sucks. i hate websites. */
 a:focus-visible {
     border: 3px solid fuchsia;
+}
+
+.nav-block a {
+    display: inline-block;
+    width: 33.5%;
+    border: 2px solid black;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: orange;
+    box-sizing: content-box;
+}
+
+.nav-flex {
+    background-color: #ffdbe0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+.nav-flex a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 16px 24px;
+    background-color: fuchsia;
+    box-sizing: content-box;
+    flex: 1;
+}
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    background-color: #00c200;
+}
+
+.nav-grid a {
+    border: 2px solid black;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: #2727ad;
+    color: #fff;
+    box-sizing: content-box;
 }
 
 body {
@@ -115,7 +166,35 @@ div img {
 /* ABOUT PAGE */
 
 /* CONTACT PAGE */
+.block {
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: orange;
+    box-sizing: border-box;
+}
 
+.inline {
+    display: inline-block;
+    width: 300px;
+    border: 2px solid black;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background-color: orange;
+    box-sizing: content-box;
+}
+
+.purple-giraffe-time-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.purple-giraffe-time-row img {
+    width: 100%;
+}
 
 /* FOOTER */
 
