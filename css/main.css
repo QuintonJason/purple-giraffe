@@ -70,7 +70,7 @@ a:focus-visible {
 body {
     color: #1b1b1b;
     background-color: #efefef;
-    font-size: 30px;
+    font-size: 16px;
     font-family: "PT Serif", serif;
     font-weight: 400;
 }
@@ -194,6 +194,42 @@ div img {
 
 .purple-giraffe-time-row img {
     width: 100%;
+}
+
+.purple-giraffe-banner {
+    background-color: #fba6fb;
+    padding: 8px;
+    text-align: center;
+}
+
+.purple-giraffe-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purple-giraffe-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.purple-giraffe-flex-row {
+    display: flex;
+    gap: 20px;
+}
+
+.purple-giraffe-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    width: 125px;
 }
 
 /* FOOTER */
