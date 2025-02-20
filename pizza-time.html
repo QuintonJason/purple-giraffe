@@ -23,26 +23,37 @@
 </head>
 
 <body>
-	<header>
-		<h1 id="top"  class="purple-giraffe-heading">Pizza Time</h1>
-	</header>
+    <div class="purple-giraffe-main-container">
+        <header class="purple-giraffe-header">
+          <div>
+            <img class="logo" src="./img/logo.png" alt="">
+          </div>
+          <button class="menu-toggle" aria-expanded="false" aria-controls="offcanvas-menu">Menu</button>
+          <nav id="offcanvas-menu" class="menu">
+            <a href="./index.html">Homepage</a>
+            <a href="./giraffes.html">Giraffes</a>
+            <a href="./zoo.html">Zoo</a>
+            <a href="./pizza-time.html">Pizza</a>
+            <a href="./contact.html">Contact</a>
+          </nav>
+        </header>
 
-    <div id="snow-day" class="purple-giraffe-container snow-day">
-        <h1>another heading</h1>
-        <p>
-            <img class="thursday-image" src="./img/pg-1.jpg" alt="" />
-        </p>
-        <a href="https://www.notion.com/" target="_blank">Go to notion</a>
-        <a href=""></a>
-        <div>something in here</div>
+        <main id="snow-day" class="purple-giraffe-container snow-day">
+            <h1>another heading</h1>
+            <p>
+                <img class="thursday-image" src="./img/pg-1.jpg" alt="" />
+            </p>
+            <a href="https://www.notion.com/" target="_blank">Go to notion</a>
+            <a href=""></a>
+            <div>something in here</div>
+        </main>
+
+        <!-- This is my site's footer -->
+        <footer>
+            <span>Made with ... </span>
+            &copy; 2025 Purple Giraffe
+        </footer>
     </div>
-
-	<!-- This is my site's footer -->
-	<footer>
-		<span>Made with ... </span>
-		&copy; 2025 Purple Giraffe
-	</footer>
-
 	<script src="./js/main.js"></script>
 </body>
 

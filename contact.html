@@ -26,70 +26,66 @@
 </head>
 
 <body>
-	<header>
-		<nav class="nav-block">
-			<a href="./index.html">Homepage</a>
-            <a href="./giraffes.html">Giraffes</a>
-            <a href="./contact.html">Contact</a>
-		</nav>
-        <nav class="nav-flex">
-			<a href="./index.html">Homepage</a>
-            <a href="./giraffes.html">Giraffes</a>
-            <a href="./contact.html">Contact</a>
-		</nav>
-        <nav class="nav-grid">
-			<a href="./index.html">Homepage</a>
-            <a href="./giraffes.html">Giraffes</a>
-            <a href="./contact.html">Contact</a>
-		</nav>
-		<h1 id="top" class="purple-giraffe-heading">Giraffes</h1>
-	</header>
+  <div class="purple-giraffe-main-container">
+    <header class="purple-giraffe-header">
+      <div>
+        <img class="logo" src="./img/logo.png" alt="">
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="offcanvas-menu">Menu</button>
+      <nav id="offcanvas-menu" class="menu">
+        <a href="./index.html">Homepage</a>
+        <a href="./giraffes.html">Giraffes</a>
+        <a href="./zoo.html">Zoo</a>
+        <a href="./pizza-time.html">Pizza</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
 
-  <main>
-    <div class="purple-giraffe-container">
-        <div class="purple-giraffe-time-row">
-            <div>
-                <img src="./img/pg-background.jpg" alt="">
-                <p>sonethiubgla fl adfljvafdsl h</p>
-            </div>
-            <div>
-                <img src="./img/pg-background.jpg" alt="">
-                <p>sonethiubgla fl adfljvafdsl h</p>
-            </div>
-            <div>
-                <img src="./img/pg-background.jpg" alt="">
-                <p>sonethiubgla fl adfljvafdsl h</p>
-            </div>
-        </div>
+    <main>
+      <div class="purple-giraffe-container">
+          <div class="purple-giraffe-time-row">
+              <div>
+                  <img src="./img/pg-background.jpg" alt="">
+                  <p>sonethiubgla fl adfljvafdsl h</p>
+              </div>
+              <div>
+                  <img src="./img/pg-background.jpg" alt="">
+                  <p>sonethiubgla fl adfljvafdsl h</p>
+              </div>
+              <div>
+                  <img src="./img/pg-background.jpg" alt="">
+                  <p>sonethiubgla fl adfljvafdsl h</p>
+              </div>
+          </div>
 
 
 
-        <form action="/submit_form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your
-            name"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male" checked>
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br><br>
-            <label for="file">File Upload:</label>
-            <input type="file" id="file" name="file" multiple><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-  </main>
+          <form action="/submit_form" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your
+              name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required><br><br>
+              <label>Gender:</label>
+              <input type="radio" id="male" name="gender" value="male" checked>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br><br>
+              <label for="file">File Upload:</label>
+              <input type="file" id="file" name="file" multiple><br><br>
+              <input type="submit" value="Submit">
+          </form>
+      </div>
+    </main>
 
-	<!-- This is my site's footer -->
-	<footer>
-		<span>Made with ... </span>
-		&copy; 2025 Purple Giraffe
-	</footer>
-
+    <!-- This is my site's footer -->
+    <footer>
+      <span>Made with ... </span>
+      &copy; 2025 Purple Giraffe
+    </footer>
+  </div>
 	<script src="./js/main.js"></script>
 </body>
 
